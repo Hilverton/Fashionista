@@ -1,0 +1,19 @@
+.app__light {
+    background-color: #f2f2f2;
+}
+
+.app__dark {
+    background-color: #212121;
+}
+
+.white {
+    color: white;
+}
+
+.title--light {
+    color: #212529;
+}
+
+.title--dark {
+    color: white;
+}

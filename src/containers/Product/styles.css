@@ -1,0 +1,158 @@
+body {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.containerDetails {
+    width  : 80%;
+    margin : 70px auto;
+    display: flex;
+}
+
+.product__imagem {
+    margin  : 0;
+    width   : 50%;
+    position: relative;
+    display : inline-block;
+}
+
+.product__photo {
+    width: 100%;
+}
+
+.product__info {
+    margin : 0 0 0 10px;
+    padding: 0;
+    width  : 40%;
+}
+
+.product__name {
+    margin        : 10px 0 8px 0;
+    font-size     : 20px;
+    text-transform: uppercase;
+}
+
+.product__price {
+    font-size: 14px;
+    color    : #a7a7a7;
+}
+
+.product__price--selected {
+    font-size: 16px;
+}
+
+.product__size {
+    font-size: 14px;
+    color    : #a7a7a7;
+    margin   : 14px 0 10px 0;
+}
+
+.product__error {
+    color    : #cf3838;
+    font-size: 12px;
+    margin   : 10px 0;
+}
+
+.product__sizes {
+    margin        : 0;
+    display       : flex;
+    flex-direction: row;
+}
+
+.product__item {
+    border-radius  : 5px;
+    min-width      : 35px;
+    height         : 35px;
+    box-sizing     : border-box;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin-bottom  : 20px;
+    margin-right   : 7px;
+    font-weight    : bold;
+    cursor         : pointer;
+}
+
+.product__item--light {
+    border: 1px solid #212529;
+    color : #212529;
+}
+
+.product__item--dark {
+    border: 1px solid #a7a7a7;
+    color : #a7a7a7;
+}
+
+.product__item--selected--light {
+    background-color: #212529;
+    color           : white;
+}
+
+.product__item--selected--dark {
+    background-color: #a7a7a7;
+    color           : #212529;
+}
+
+.product__add {
+    width        : 70%;
+    height       : 39px;
+    border       : none;
+    border-radius: 5px;
+    cursor       : pointer;
+    font-size    : 16px;
+    font-weight  : bold;
+    outline      : none;
+}
+
+.product__add--light {
+    background-color: #212529;
+    color           : white;
+}
+
+.product__add--dark {
+    background-color: #a7a7a7;
+    color           : #212529;
+}
+
+.product__light {
+    background-color: #f2f2f2;
+}
+
+.product__dark {
+    background-color: #212121;
+    color           : white !important;
+}
+
+@media(max-width: 768px) {
+    .product__imagem {
+        width: 60%;
+    }
+
+    .product__info {
+        width     : 40%;
+        box-sizing: border-box;
+    }
+
+    .product__add {
+        width    : 100%;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 425px) {
+    .containerDetails {
+        flex-direction: column;
+    }
+
+    .product__imagem,
+    .product__info {
+        width     : 100%;
+        box-sizing: border-box;
+        margin    : 0;
+    }
+
+    .product__add {
+        width: 100%;
+    }
+}
