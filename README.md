@@ -1,6 +1,8 @@
-#Fashionista
+# Fashionista
 
 Projeto Desenvolvido para conclusão do Programa AceleraDev React Online da Codenation
+
+![Screenshot](https://raw.githubusercontent.com/Hilverton/Fashionista/master/fashionista_screenshot.png)
 
 ## Available Scripts
 
