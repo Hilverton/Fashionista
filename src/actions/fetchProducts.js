@@ -3,7 +3,7 @@ import {fetchProductsPending, fetchProductsSuccess, fetchProductsError} from '..
 export default  function fetchProducts() {
     return dispatch => {
         dispatch(fetchProductsPending());
-        fetch('https://5e9935925eabe7001681c856.mockapi.io/api/v1/catalog')
+        fetch('https://5f074b869c5c250016306cbf.mockapi.io/api/v1/catalog')
         .then(res => res.json())
         .then(res => {
             if(res.error) {
